@@ -4,6 +4,11 @@ Este é um repositório criado durante o curso de POO promovido pela Adatech par
 É composto por uma solução de Folha de Pagamento criado no MiniHackathon promovido no curso.  
 Os exercícios são executados no console havendo interação com o usuário como entrada, processamento e saída de dados.
 
+> [!NOTE]
+> A solução foi construída por todos, havendo discussão sobre o projeto e sua codificação.  
+> O trabalho foi realizado de forma colaborativa.  
+> Cada aluno participou criando uma classe ou subclasse e as definições, correções e melhorias foram discutidas e tratadas pelo grupo.
+
 ## Instalação
 
 Para instalar a solução, utilize o MS Visual Studio 2022 e siga os seguintes passos:
@@ -25,17 +30,17 @@ Para instalar a solução, utilize o MS Visual Studio 2022 e siga os seguintes p
 > Pressione `F5` ou `Ctrl+F5` para depurar ou executar o projeto, respectivamente.
 
 
-## Licença
-
-Por enquanto, não há uma licença definida para o projeto.
-
 ## Formação do Grupo
 - Marcio Henrique Barranco
-* Marco Aurélio Tridico
++ Marco Aurélio Tridico
 + Marcos Da Silva Ferreira
 + Marcos Rogelio Franco Da Silva
 + Michelle RoslerKley
 + Michelle Sant Ana Oliveira
+
+## Licença
+
+Por enquanto, não há uma licença definida para o projeto.
 
 ## Agradecimentos
 
