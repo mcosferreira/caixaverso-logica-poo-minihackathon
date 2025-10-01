@@ -17,7 +17,7 @@ Para instalar a solução, utilize o MS Visual Studio 2022 e siga os seguintes p
 2. Abrir a solução no Visual Studio 2022.
 
 > [!NOTE]
-> A solução possui projetos por aula.
+> A solução possui apenas o projeto proposto.
 
 ## Executando os exercícios de cada aula
 
