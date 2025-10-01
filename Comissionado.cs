@@ -10,14 +10,14 @@ namespace FolhaDePagamento
     {
         public bool Comissao { get; set; }
 
-        public Comissionado(string nome, double salario, bool comissao) : base(nome, salario, comissao)
+        public Comissionado(string nome, double salario, bool comissao) : base(nome, salario)
         {
             Comissao = comissao;
         }
 
         public override double RetornarSalario()
         {
-            return salario ? comissao * 1.1 : Salario;
+            return Comissao ? this.Salario * 1.1 : this.Salario;
         }
     }
 }

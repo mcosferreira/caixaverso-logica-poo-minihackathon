@@ -8,11 +8,12 @@ namespace FolhaDePagamento
 {
     public class Assalariado : Funcionario
     {
-
-        public int Horas { get; set; }
-
         public Assalariado(string nome, double salario) : base(nome, salario)
         {
+        }
+        public override double RetornarSalario()
+        {
+            return Salario;
         }
     }
 }

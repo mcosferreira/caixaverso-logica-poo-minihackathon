@@ -8,42 +8,55 @@ namespace FolhaDePagamento
 {
     public class Funcionario
     {
-
-        private double salario;
-        private string nome;
+        private String _nome;
+        private double _salario;
         public string Nome
         {
-            get { return nome; }
+            get { return _nome; }
             set
             {
-                if (value == "" || value == null)
+                if (string.IsNullOrEmpty(value))
+                {
                     Console.WriteLine("Não é possível informar um nome vazio");
+                    _nome = "";
+                }
                 else
-                    nome = value;
+                {
+                    _nome = value;
+                }
             }
         }
 
         public double Salario
         {
-            get { return salario; }
+            get { return _salario; }
             set
             {
                 if (value < 0)
+                {
                     Console.WriteLine("Não é permitido salário negativo!");
+                    _salario = 0.0;
+                }
                 else
-                    salario = value;
+                {
+                    _salario = value;
+                }
             }
         }
 
         public Funcionario(string nome, double salario)
         {
-            this.nome = nome;
-            this.salario = salario;
+            this.Nome = nome;
+            this.Salario = salario;
         }
 
-        public virtual void RetornarSalario()
+        public Funcionario()
         {
-            Console.WriteLine($"O salário do funcionário {Nome} é R$ {Salario:F2}");
+        }
+
+        public virtual double RetornarSalario()
+        {
+            return Salario;
         }
     }
 }

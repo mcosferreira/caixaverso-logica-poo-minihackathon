@@ -14,9 +14,9 @@ namespace FolhaDePagamento
             Horas = horas;
         }
 
-        public override void RetornarSalario()
+        public override double RetornarSalario()
         {
-            Console.WriteLine($"O salário do funcionário {Nome} é R$ {Horas * Salario:F2}.");
+            return Salario * Horas;
         }
     }
 }
