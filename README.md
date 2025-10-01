@@ -31,7 +31,7 @@ Para instalar a solução, utilize o MS Visual Studio 2022 e siga os seguintes p
 
 
 ## Formação do Grupo
-- Marcio Henrique Barranco
++ Marcio Henrique Barranco
 + Marco Aurélio Tridico
 + Marcos Da Silva Ferreira
 + Marcos Rogelio Franco Da Silva
