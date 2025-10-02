@@ -44,4 +44,4 @@ Por enquanto, não há uma licença definida para o projeto.
 
 ## Agradecimentos
 
-Profa. Samira N. Antunes (samiranatunies@gmail.com)
+Profa. Samira N. Antunes (samira.n.antunes@gmail.com)
